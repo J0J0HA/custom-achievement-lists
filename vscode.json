@@ -1,0 +1,29 @@
+{
+  "achievements": [
+    {
+      "name": "VSCode Fan",
+      "levels": [
+        {
+          "trigger": "[ide.vscode.open] >= 10",
+          "description": "You opened VSCode 10 times!"
+        },
+        {
+          "trigger": "[ide.vscode.open] >= 50",
+          "description": "You opened VSCode 50 times!"
+        },
+        {
+          "trigger": "[ide.vscode.open] >= 100",
+          "description": "You opened VSCode 100 times!"
+        },
+        {
+          "trigger": "[ide.vscode.open] >= 200",
+          "description": "You opened VSCode 200 times!"
+        },
+        {
+          "trigger": "[ide.vscode.open] >= 500",
+          "description": "You opened VSCode 500 times!"
+        }
+      ]
+    }
+  ]
+}
