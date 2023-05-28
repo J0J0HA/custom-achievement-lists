@@ -1,0 +1,6 @@
+{
+  "include": [
+    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/python.json",
+    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/vscode.json"
+  ]
+}
