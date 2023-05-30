@@ -1,0 +1,21 @@
+name: Upload data to files.jojojux.de
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: FTP Upload
+      uses: Dylan700/sftp-upload-action@latest
+      with:
+        server: admin.jojojux.de
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        uploads: |
+          ./ => /www/files.jojojux.de/resources/builds/custom-achievement-lists/
