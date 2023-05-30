@@ -18,4 +18,5 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         uploads: |
-          ./ => /www/files.jojojux.de/resources/builds/custom-achievement-lists/
+          ./lists/ => /www/files.jojojux.de/resources/builds/custom-achievement-lists/lists/
+          ./all.json => /www/files.jojojux.de/resources/builds/custom-achievement-lists/all.json
