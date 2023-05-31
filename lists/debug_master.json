@@ -1,0 +1,70 @@
+{
+  "achievements": [
+    {
+      "name": "Debug Master",
+      "description": "You ran the debugger {amount} times!",
+      "phrase": "{username} takes debugging seriously.",
+      "levels": [
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 10
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 50
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 100
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 500
+          }
+        },{
+          "trigger": {
+            "name": "debug",
+            "value": 1000
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 5000
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 10000
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 50000
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 100000
+          }
+        },
+        {
+          "trigger": {
+            "name": "debug",
+            "value": 500000
+          }
+        }
+      ]
+    }
+  ]
+}
