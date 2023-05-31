@@ -19,6 +19,7 @@ jobs:
         server: admin.jojojux.de
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        delete: yes
         uploads: |
           ./lists/ => /www/files.jojojux.de/resources/builds/custom-achievement-lists/lists/
           ./all.json => /www/files.jojojux.de/resources/builds/custom-achievement-lists/all.json
