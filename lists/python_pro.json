@@ -1,0 +1,70 @@
+{
+  "achievements": [
+    {
+      "name": "Python Pro",
+      "description": "You opened {amount} python files!",
+      "phrase": "{username} seems to love python!",
+      "levels": [
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 10
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 50
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 100
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 500
+          }
+        },{
+          "trigger": {
+            "name": "file.open.python",
+            "value": 1000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 5000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 10000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 50000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 100000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.python",
+            "value": 500000
+          }
+        }
+      ]
+    }
+  ]
+}

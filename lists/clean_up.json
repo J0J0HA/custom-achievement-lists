@@ -1,0 +1,60 @@
+{
+    "achievements": [
+      {
+        "name": "Clean up",
+        "description": "You closed {amount} files.",
+        "phrase": "{username} likes to have it clean!",
+        "levels": [
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 100
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 500
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 1000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 5000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 10000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 50000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 100000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.close",
+              "value": 500000
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

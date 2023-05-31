@@ -1,7 +1,8 @@
 {
   "include": [
-    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/python.json",
-    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/vscode.json",
-    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/typing.json"
+    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/python_pro.json",
+    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/vscode_fan.json",
+    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/clean_up.json",
+    "https://raw.githubusercontent.com/J0J0HA/custom-achievement-lists/main/lists/hyper_typer.json"
   ]
 }

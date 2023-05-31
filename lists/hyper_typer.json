@@ -1,0 +1,59 @@
+{
+  "achievements": [
+    {
+      "name": "Hyper Typer",
+      "description": "You pressed {amount} keyboard-buttons!",
+      "phrase": "You smashed the keyboard {amount} times!",
+      "levels": [
+        {
+          "trigger": {
+            "name": "type",
+            "value": 100
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 500
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 1000
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 5000
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 10000
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 50000
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 100000
+          }
+        },
+        {
+          "trigger": {
+            "name": "type",
+            "value": 500000
+          }
+        }
+      ]
+    }
+  ]
+}

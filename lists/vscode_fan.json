@@ -1,0 +1,71 @@
+{
+  "achievements": [
+    {
+      "name": "VSCode Fan",
+      "description": "You opened VSCode {amount} times!",
+      "phrase": "{username} likes coding in VSCode!",
+      "levels": [
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 10
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 50
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 100
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 500
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 1000
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 5000
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 10000
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 50000
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 100000
+          }
+        },
+        {
+          "trigger": {
+            "name": "ide.open.vscode",
+            "value": 500000
+          }
+        }
+      ]
+    }
+  ]
+}
