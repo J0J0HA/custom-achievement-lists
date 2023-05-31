@@ -11,12 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Change Link Origin
+      run: find . -type f -exec sed -i 's/https:\/\/raw.githubusercontent.com\/J0J0HA\/custom-achievement-lists\/main/https:\/\/files.jojojux.de\/resources\/builds\/custom-achievement-lists/g' {} +
     - name: FTP Upload
       uses: Dylan700/sftp-upload-action@latest
       with:
         server: admin.jojojux.de
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        delete: true
         uploads: |
           ./lists/ => /www/files.jojojux.de/resources/builds/custom-achievement-lists/lists/
           ./all.json => /www/files.jojojux.de/resources/builds/custom-achievement-lists/all.json
