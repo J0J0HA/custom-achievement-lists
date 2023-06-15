@@ -1,0 +1,8 @@
+{
+  "ide.open": "Opened IDE",
+  "ide.open.vscode": "Opened VSCode",
+  "file.open": "Opened File",
+  "type": "Typed",
+  "debug": "Debugged",
+  "file.close": "Closed File",
+}
