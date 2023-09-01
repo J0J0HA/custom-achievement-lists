@@ -1,0 +1,70 @@
+{
+  "achievements": [
+    {
+      "name": "Lua Dev",
+      "description": "You opened {amount} lua files!",
+      "phrase": "{username} is an absolute lua pro! (or not, depending on how much files {amount} are, Idk.)",
+      "levels": [
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 10
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 50
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 100
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 500
+          }
+        },{
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 1000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 5000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 10000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 50000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 100000
+          }
+        },
+        {
+          "trigger": {
+            "name": "file.open.lua",
+            "value": 500000
+          }
+        }
+      ]
+    }
+  ]
+}
