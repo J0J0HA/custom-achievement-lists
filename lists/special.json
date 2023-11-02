@@ -1,0 +1,18 @@
+{
+    "achievements": [
+      {
+        "name": "Anagram found",
+        "description": "You found an anagram successfully.",
+        "phrase": "{username} wrote a better function than writer.",
+        "levels": [
+          {
+            "trigger": {
+              "name": ".special.anagram-found",
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
