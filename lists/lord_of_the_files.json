@@ -1,0 +1,77 @@
+{
+    "achievements": [
+      {
+        "name": "Lord of the files",
+        "description": "You created {amount} new files!",
+        "phrase": "{username} seems only to write one line per file",
+        "levels": [
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 10
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 50
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 100
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 500
+            }
+          },{
+            "trigger": {
+              "name": "file.create",
+              "value": 1000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 5000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 10000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 50000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 100000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 500000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create",
+              "value": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

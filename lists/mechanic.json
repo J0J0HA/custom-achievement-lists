@@ -1,0 +1,77 @@
+{
+    "achievements": [
+      {
+        "name": "Mechanic",
+        "description": "You changed the settings {amount} times!",
+        "phrase": "{username} is highly sensible and needs to fine-tune.",
+        "levels": [
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 10
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 50
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 100
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 500
+            }
+          },{
+            "trigger": {
+              "name": "settings.changed",
+              "value": 1000
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 5000
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 10000
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 50000
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 100000
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 500000
+            }
+          },
+          {
+            "trigger": {
+              "name": "settings.changed",
+              "value": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

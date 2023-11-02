@@ -3,7 +3,7 @@
       {
         "name": "Anagram found",
         "description": "You found an anagram successfully.",
-        "phrase": "{username} wrote a better function than writer.",
+        "phrase": "{username} wrote a better function than JoJoJux.",
         "levels": [
           {
             "trigger": {

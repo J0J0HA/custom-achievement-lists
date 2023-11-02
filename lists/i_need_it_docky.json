@@ -1,0 +1,77 @@
+{
+    "achievements": [
+      {
+        "name": "I need it Docky",
+        "description": "You created {amount} docker files!",
+        "phrase": "{username} runs in a docker container",
+        "levels": [
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 10
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 50
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 100
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 500
+            }
+          },{
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 1000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 5000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 10000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 50000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 100000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 500000
+            }
+          },
+          {
+            "trigger": {
+              "name": "file.create.docker",
+              "value": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

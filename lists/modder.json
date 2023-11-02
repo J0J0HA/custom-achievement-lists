@@ -1,0 +1,77 @@
+{
+    "achievements": [
+      {
+        "name": "Modder",
+        "description": "You installed {amount} extensions!",
+        "phrase": "{username} wants all the features.",
+        "levels": [
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 10
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 50
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 100
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 500
+            }
+          },{
+            "trigger": {
+              "name": "extension.install",
+              "value": 1000
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 5000
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 10000
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 50000
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 100000
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 500000
+            }
+          },
+          {
+            "trigger": {
+              "name": "extension.install",
+              "value": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
