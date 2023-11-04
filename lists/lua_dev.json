@@ -1,6 +1,7 @@
 {
   "achievements": [
     {
+      "image": "https://picsum.photo/200",
       "name": "Lua Dev",
       "description": "You opened {amount} lua files!",
       "phrase": "{username} is an absolute lua pro! (or not, depending on how much files {amount} are, Idk.)",

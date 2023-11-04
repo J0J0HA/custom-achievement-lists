@@ -1,6 +1,7 @@
 {
     "achievements": [
       {
+        "image": "https://picsum.photo/200",
         "name": "Anagram found",
         "description": "You found an anagram successfully.",
         "phrase": "{username} wrote a better function than JoJoJux.",

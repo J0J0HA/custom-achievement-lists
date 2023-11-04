@@ -1,6 +1,7 @@
 {
   "achievements": [
     {
+      "image": "https://picsum.photo/200",
       "name": "Hyper Typer",
       "description": "You pressed {amount} keyboard-buttons!",
       "phrase": "You smashed the keyboard {amount} times!",

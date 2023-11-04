@@ -1,6 +1,7 @@
 {
   "achievements": [
     {
+      "image": "https://picsum.photo/200",
       "name": "Python Pro",
       "description": "You opened {amount} python files!",
       "phrase": "{username} seems to love python!",

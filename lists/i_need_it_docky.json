@@ -1,6 +1,7 @@
 {
     "achievements": [
       {
+        "image": "https://picsum.photo/200",
         "name": "I need it Docky",
         "description": "You created {amount} docker files!",
         "phrase": "{username} runs in a docker container",

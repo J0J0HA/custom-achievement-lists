@@ -1,6 +1,7 @@
 {
     "achievements": [
       {
+        "image": "https://picsum.photo/200",
         "name": "Lord of the files",
         "description": "You created {amount} new files!",
         "phrase": "{username} seems only to write one line per file",
