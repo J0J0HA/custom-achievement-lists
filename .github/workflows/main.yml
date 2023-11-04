@@ -14,12 +14,10 @@ jobs:
     - name: Change Link Origin
       run: find . -type f -exec sed -i 's/https:\/\/raw.githubusercontent.com\/J0J0HA\/custom-achievement-lists\/main/https:\/\/files.jojojux.de\/resources\/builds\/custom-achievement-lists/g' {} +
     - name: FTP Upload
-      uses: Dylan700/sftp-upload-action@latest
+      uses: wangyucode/sftp-upload-action@v2.0.2
       with:
-        server: admin.jojojux.de
+        host: 212.227.8.25
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        delete: true
-        uploads: |
-          ./lists/ => /www/files.jojojux.de/resources/builds/custom-achievement-lists/lists/
-          ./all.json => /www/files.jojojux.de/resources/builds/custom-achievement-lists/all.json
+        localDir: ./
+        remoteDir: /www/files.jojojux.de/resources/builds/custom-achievement-lists
