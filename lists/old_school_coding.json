@@ -1,7 +1,7 @@
 {
     "achievements": [
       {
-        "image": "https://picsum.photo/200",
+        "image": "https://picsum.photos/200",
         "name": "Old School Coding",
         "description": "You copied more than 100 symbols at once {amount} times!",
         "phrase": "{username} loves Ctrl+C, Ctrl+V.",

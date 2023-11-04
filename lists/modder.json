@@ -1,7 +1,7 @@
 {
     "achievements": [
       {
-        "image": "https://picsum.photo/200",
+        "image": "https://picsum.photos/200",
         "name": "Modder",
         "description": "You installed {amount} extensions!",
         "phrase": "{username} wants all the features.",

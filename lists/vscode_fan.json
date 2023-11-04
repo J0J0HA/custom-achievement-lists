@@ -1,7 +1,7 @@
 {
   "achievements": [
     {
-      "image": "https://picsum.photo/200",
+      "image": "https://picsum.photos/200",
       "name": "VSCode Fan",
       "description": "You opened VSCode {amount} times!",
       "phrase": "{username} likes coding in VSCode!",
